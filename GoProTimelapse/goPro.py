@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import commands
-import urllib.request
+import urllib, request
 import time
 import datetime
 import os
