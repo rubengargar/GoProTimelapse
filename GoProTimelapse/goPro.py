@@ -1,7 +1,11 @@
 #!/usr/bin/python
 
 import commands
-import urllib, request
+# import urllib, request
+try: #python3
+    from urllib.request import urlopen
+except: #python2
+    from urllib2 import urlopen
 import time
 import datetime
 import os
