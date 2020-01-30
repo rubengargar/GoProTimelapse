@@ -188,7 +188,7 @@ class GoPro:
                         LogError = open(LogRute + 'LogGoPro.txt','ab+')
                         LogError.write("Saved photo "+ str(numimg1) + ": " + str(datetime.datetime.now()) + "\n")
                         LogError.close()
-                time.sleep(1500)
+                time.sleep(60)
             except KeyboardInterrupt:
                 break
             except IOError:
